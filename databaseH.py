@@ -23,4 +23,4 @@ inconsistent_indices = economy_df[ecoinvalid_timetaken].index
 print(ecoinvalid_timetaken.index)
 
 
-#print(economy_df.loc[170139])
+print(economy_df['time_taken'].unique())
